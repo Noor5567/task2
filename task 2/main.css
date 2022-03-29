@@ -1,0 +1,115 @@
+.p1
+{
+    color:orange;
+}
+.p3
+{
+    background-image: url("./sky.jpg");
+}
+.sty
+{
+    padding-top:10px;
+    font-size: 30px;
+    color:orange;
+}
+.head
+{
+    padding-left: 75%;
+    font-size: 30px;
+}
+.pgraph
+{
+    padding-top: 70px;
+}
+.pgraph2
+{
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+}
+.head4
+{
+    padding-top: 20px;
+}
+.pp3
+{
+    color:#00008b;
+    font-weight: bold;
+}
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap:10px;
+  }
+  .grid-item {
+    border: 2px solid ;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 2px 2px #708090;
+  }
+.headgraph
+{
+    border:1px solid;
+    background-color: white;
+}
+.headgraph1
+{
+    border:3px dotted red;
+    background-color: white;
+}
+.pagraph
+{
+    border:3px dotted red;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#head
+{
+    text-decoration: underline;
+    padding-top: 3px;
+}
+.head
+{
+    text-decoration: underline;
+}
+.text
+{
+    color:blue;
+}
+.ref
+{
+    color:orange;
+}
+.click
+{
+    color:red;
+    font-weight: bold;
+}
+.this
+{
+    color:brown;
+    background-color: yellow;
+}
+.li 
+{
+    color:blue;
+}
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container > p {
+    background-color: red;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid;
+  }
+  p:nth-child(even)
+  {
+      display:none;
+  }
